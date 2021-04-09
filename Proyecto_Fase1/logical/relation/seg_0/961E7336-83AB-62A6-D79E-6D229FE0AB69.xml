@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Inscrito_Estudiante_FK" directorySegmentName="seg_0" id="961E7336-83AB-62A6-D79E-6D229FE0AB69">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>C007A482-F7E4-A2D5-8226-E703B628C9B0</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<sourcePk>3AB77F94-0DD5-735B-63B6-22C404AB0A09</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A590FFB6-E68A-F0AC-DF2A-324C5A1411E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43CA3BDB-63A1-56ED-4F52-044A9999F010</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86ED337D-ED3D-4C1C-8485-982A25506872" name="Prerreq">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:02:02 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodCurso" id="CB412F6A-83C8-C6E2-A916-6F66BD5EEE6D">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:02:11 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0225799C-DC86-FA97-5B36-4753AF8A96B3" referredColumn="D954BBD5-1A6B-2485-40F5-9A97C974C17F"/>
+</associations>
+</Column>
+<Column name="Plan" id="A03A922F-5F26-DE93-9859-26F3F9F40F50">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:02:11 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0225799C-DC86-FA97-5B36-4753AF8A96B3" referredColumn="29DFC538-27F5-EAF5-C87B-61B883544011"/>
+</associations>
+</Column>
+<Column name="Carrera" id="D2BFE341-C126-620D-A54C-8ADCF561A36B">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:02:11 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0225799C-DC86-FA97-5B36-4753AF8A96B3" referredColumn="F8C75B6A-A89E-B66A-67D3-ADB162B6B4BC"/>
+</associations>
+</Column>
+<Column name="CodPrerreq" id="E6E8E064-1D55-3A10-F5D1-24BF6F4FBF18">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:02:23 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92F12ED1-A0AE-00E7-7337-2E5E4F0E04C5" referredColumn="E9E99A57-F6AA-35F7-0406-1C83BC6037AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F04153A-9B34-CD00-E5B6-960C490137C0" name="Prerreq_PK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:03:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB412F6A-83C8-C6E2-A916-6F66BD5EEE6D"/>
+<colUsage columnID="A03A922F-5F26-DE93-9859-26F3F9F40F50"/>
+<colUsage columnID="D2BFE341-C126-620D-A54C-8ADCF561A36B"/>
+<colUsage columnID="E6E8E064-1D55-3A10-F5D1-24BF6F4FBF18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D57F569-B66D-B0CA-1960-E39F51BE0603" name="Prerreq_Pensum_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:02:11 UTC</createdTime>
+<generatorID>37117695-949E-A1B8-391B-3E6DFDDD63FD</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB412F6A-83C8-C6E2-A916-6F66BD5EEE6D"/>
+<colUsage columnID="A03A922F-5F26-DE93-9859-26F3F9F40F50"/>
+<colUsage columnID="D2BFE341-C126-620D-A54C-8ADCF561A36B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BF6F01C-9C54-EFCA-4EF0-B4ED2CDA8F09" name="Prerreq_Curso_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:02:23 UTC</createdTime>
+<generatorID>98BDDE01-EC87-A088-AD38-3FB77C21CD4C</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E8E064-1D55-3A10-F5D1-24BF6F4FBF18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

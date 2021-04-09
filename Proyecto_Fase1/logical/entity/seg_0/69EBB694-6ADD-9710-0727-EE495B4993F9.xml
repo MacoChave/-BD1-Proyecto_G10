@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69EBB694-6ADD-9710-0727-EE495B4993F9" name="Periodo">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>280A4491-F447-FDF6-4372-4B3CFA4D6C63</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Periodo" id="00EA239F-BC39-02E3-A7CB-5960E31E6046">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>A8B2F4B8-852A-B76D-7572-5C61A2356737</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraInicio" id="4F37E3B5-7F03-B9C5-E21C-F0E8EFBBC2F1">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>269BEB9F-FFA4-78B6-5F8D-91E4A0CB467A</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraFinal" id="5C050921-F527-5AAC-59A6-B63D737CB3A5">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>CE9EF59D-B3DA-D3A2-5493-9A605D26CC0E</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E518719-7CF6-93DA-2713-1BD679A983C4" name="Periodo PK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>C943408D-5F45-6A3D-8EC1-8FA6D8EB64C0</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00EA239F-BC39-02E3-A7CB-5960E31E6046</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

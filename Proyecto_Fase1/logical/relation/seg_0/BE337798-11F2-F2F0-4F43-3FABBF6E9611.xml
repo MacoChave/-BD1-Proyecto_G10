@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prerreq_Pensum_FK" directorySegmentName="seg_0" id="BE337798-11F2-F2F0-4F43-3FABBF6E9611">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>0225799C-DC86-FA97-5B36-4753AF8A96B3</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<sourcePk>802B5A51-F736-25F0-90BB-DE6B89B001F7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F258ECF-A5A0-0020-6864-0B55EB57F07E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F8A9129-1AD2-797C-09CE-37A415163D32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

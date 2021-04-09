@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prerreq_Curso_FK" directorySegmentName="seg_0" id="31F70385-2273-218B-3F5D-3ADD20A21D81">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>92F12ED1-A0AE-00E7-7337-2E5E4F0E04C5</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<sourcePk>34D6854F-3404-DEA2-C8B7-F5BBF1D4D3E8</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA44CC03-9711-A460-D08F-3DE2D4F542AA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F8A9129-1AD2-797C-09CE-37A415163D32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

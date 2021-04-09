@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFAE4E24-9779-71FE-BB69-CD365015E35E" name="Estudiante">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>67494A48-85B5-E8A3-97E7-B7E0F1EA7B79</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Carnet" id="A5BC3A75-62C0-0E98-B094-C6793BC11361">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>FA217ABF-D212-7FBD-582F-2A48CED07B97</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="4FEAF615-CFB4-908D-0507-7756E9768D87">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>BB93CC7F-BD62-AD2E-372A-14E2F421BB25</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IngresoFamiliar" id="A0173382-3965-958B-3FD4-CE3BD3045B51">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>712E9ED9-37C2-32FD-CC93-910C842E2357</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNacimiento" id="B4BE6E05-B235-7D3A-0E7B-9F3ED2BB2F7B">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>E50E8A65-4317-8502-9781-78F3A98A36B9</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E646DD54-2739-4B86-1DBD-ECAB8CED3692" name="Estudiante_PK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>7302583E-0DE0-DCF2-0831-5065B35AE6B9</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5BC3A75-62C0-0E98-B094-C6793BC11361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

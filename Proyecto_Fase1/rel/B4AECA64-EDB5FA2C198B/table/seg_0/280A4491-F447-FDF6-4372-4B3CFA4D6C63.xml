@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="280A4491-F447-FDF6-4372-4B3CFA4D6C63" name="Periodo">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>B884C1FC-2EDD-B7D3-7C15-3E1CA909CA7E</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Periodo" id="A8B2F4B8-852A-B76D-7572-5C61A2356737">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>9C54E8C8-87C5-D553-02C9-FECB00E58AEB</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraInicio" id="269BEB9F-FFA4-78B6-5F8D-91E4A0CB467A">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>B55A1168-9BE2-FD3D-3F8E-C2E4CF17AD71</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraFinal" id="CE9EF59D-B3DA-D3A2-5493-9A605D26CC0E">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>990C4148-8150-8F21-F6EB-8F0B0B95A047</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C943408D-5F45-6A3D-8EC1-8FA6D8EB64C0" name="Periodo_PK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>4184E7CC-9B57-B52B-E2E9-CB3FA093105A</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8B2F4B8-852A-B76D-7572-5C61A2356737"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C44FD1FB-89CD-E212-50C2-92C63355E134" name="Asignacion">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Año" id="AD3EB5CD-9971-08F6-0075-F4C799DFC4EE">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49CA819-1BD0-862E-4C84-A406AB2C0A78" referredColumn="A50926F5-1787-6A01-77DF-08CAD842D87C"/>
+</associations>
+</Column>
+<Column name="Seccion" id="E89DC639-5FCE-9B40-87D6-A8BA0EBC8931">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49CA819-1BD0-862E-4C84-A406AB2C0A78" referredColumn="7A97DF36-0ED5-1FC0-C510-08A8FA3B847E"/>
+</associations>
+</Column>
+<Column name="Ciclo" id="BDA1C931-9439-6118-5A07-8E39C4C1CCAC">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49CA819-1BD0-862E-4C84-A406AB2C0A78" referredColumn="79C6A077-3FC0-4F8D-4D33-49155647B49A"/>
+</associations>
+</Column>
+<Column name="Codigo" id="84E5801E-7C08-5124-7278-E10E79DB9051">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49CA819-1BD0-862E-4C84-A406AB2C0A78" referredColumn="7DF89E36-0756-1810-BA15-246AA454EF88"/>
+</associations>
+</Column>
+<Column name="Carnet" id="1E217692-1AF9-A4DC-62C9-536149B236EE">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D13DE368-1855-0867-E3CA-E35BE733F4E0" referredColumn="A5BC3A75-62C0-0E98-B094-C6793BC11361"/>
+</associations>
+</Column>
+<Column name="Zona" id="D577D37F-6121-303C-D815-1914957BCCB0">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>4165E6D4-0319-E2F5-3D1C-39C815A2775F</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Nota" id="37BE4B3D-A46C-7BB2-B0B3-90398D611B8D">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>4352A6F3-CC97-C550-C7F5-DC80C397ACCB</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="827CBACB-76F7-5DEF-C5F6-413EEBD6E4DB" name="Asignacion_PK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD3EB5CD-9971-08F6-0075-F4C799DFC4EE"/>
+<colUsage columnID="E89DC639-5FCE-9B40-87D6-A8BA0EBC8931"/>
+<colUsage columnID="BDA1C931-9439-6118-5A07-8E39C4C1CCAC"/>
+<colUsage columnID="84E5801E-7C08-5124-7278-E10E79DB9051"/>
+<colUsage columnID="1E217692-1AF9-A4DC-62C9-536149B236EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="388F86A2-FBD9-8777-B51B-FDB57FA1193A" name="Asignacion_Seccion_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>CCFF070C-FA1A-A956-1E97-BD56707874FC</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD3EB5CD-9971-08F6-0075-F4C799DFC4EE"/>
+<colUsage columnID="E89DC639-5FCE-9B40-87D6-A8BA0EBC8931"/>
+<colUsage columnID="BDA1C931-9439-6118-5A07-8E39C4C1CCAC"/>
+<colUsage columnID="84E5801E-7C08-5124-7278-E10E79DB9051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03D4030E-3AE2-2016-7B63-CD48D73BAB70" name="Asignacion_Estudiante_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>CCFF070C-FA1A-A956-1E97-BD56707874FC</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E217692-1AF9-A4DC-62C9-536149B236EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

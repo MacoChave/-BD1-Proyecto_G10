@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pensum_Curso_FK" directorySegmentName="seg_0" id="8968D358-4C07-A2B6-686B-0903B2EF8382">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>F188D236-E843-EB8F-0416-69AD69B332B1</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<sourcePk>34D6854F-3404-DEA2-C8B7-F5BBF1D4D3E8</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA44CC03-9711-A460-D08F-3DE2D4F542AA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8F258ECF-A5A0-0020-6864-0B55EB57F07E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

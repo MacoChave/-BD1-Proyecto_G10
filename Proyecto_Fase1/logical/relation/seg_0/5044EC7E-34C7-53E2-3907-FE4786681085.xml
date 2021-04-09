@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Horario_Dia_FK" directorySegmentName="seg_0" id="5044EC7E-34C7-53E2-3907-FE4786681085">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>63C0E412-31DF-1FAF-1CEB-D401699DE4BE</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<sourcePk>3849C1A5-0C45-4039-8B6E-BA0074E897E2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E59C94B1-9280-D4F9-C775-0D2F76CC92BB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC610F5B-B159-35FF-A669-CC1ED13D637F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

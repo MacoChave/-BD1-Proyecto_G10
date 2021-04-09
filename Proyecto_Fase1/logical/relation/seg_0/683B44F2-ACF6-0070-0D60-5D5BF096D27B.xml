@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Seccion_Catedratico_FK" directorySegmentName="seg_0" id="683B44F2-ACF6-0070-0D60-5D5BF096D27B">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>FB992BFF-6AFA-41BB-55B8-B993C3EF8C3C</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<sourcePk>7F0891EC-01F0-18CC-D072-1BE9DDE4971F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D4A537E-1C30-A738-B373-9F3B0789AC6E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E480D0E2-1AD2-CFDF-FD49-4A98535C1A01</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Plan_Carrera_FK" directorySegmentName="seg_0" id="95EC995D-7C76-9174-ED61-56A4CEEB5918">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 22:06:40 UTC</createdTime>
+<generatorID>996905B9-E3C2-659F-6740-0C154C393505</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<engineerTo>
+<item key="B4AECA64-FA2F-DF61-19E6-EDB5FA2C198B" value="true"/>
+</engineerTo>
+<sourcePk>896C218F-49D6-7B5D-58B4-6AAD8F7B29A9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A181585-511E-C94B-AB19-1687FD192F52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD7A0AD4-D4DA-8524-6E46-F44A4A44857C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

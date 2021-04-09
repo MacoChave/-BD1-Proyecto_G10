@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8412753F-D74F-7CA9-2D66-51F5A3A4C12F" name="Seccion">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>AA60DCB6-23BF-F29A-1D4B-F312C16204CB</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seccion" id="7A97DF36-0ED5-1FC0-C510-08A8FA3B847E">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>85EFEB9B-0782-CC7A-F40B-BE3FA42507A5</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Año" id="A50926F5-1787-6A01-77DF-08CAD842D87C">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>EA503D4C-7B4A-BD1E-0717-425B5C3C64F7</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciclo" id="79C6A077-3FC0-4F8D-4D33-49155647B49A">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>BDCE6035-E8F6-DAC3-5348-CD5BF7B7B4BD</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodCatedratico" id="0FD13593-8C45-49F7-2E3E-2AFC9FA417E3">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>5D6624EE-B296-3762-13A5-FA70F5F93578</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB992BFF-6AFA-41BB-55B8-B993C3EF8C3C" referredColumn="2C1231BA-7F04-37D1-3154-918BFDEB1A65"/>
+</associations>
+</Column>
+<Column name="CodCurso" id="7DF89E36-0756-1810-BA15-246AA454EF88">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>74479CBA-DF91-1E99-CCD7-5D8E35D6F8F6</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04BB4EFD-A283-CA4C-D923-B8166AFA3C04" referredColumn="E9E99A57-F6AA-35F7-0406-1C83BC6037AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4ACB273-CC7C-8DD0-AE5A-199EC7159C69" name="Seccion_PK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>1BE8FCA8-12E9-34F7-9207-E566C298FD1D</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A50926F5-1787-6A01-77DF-08CAD842D87C"/>
+<colUsage columnID="7A97DF36-0ED5-1FC0-C510-08A8FA3B847E"/>
+<colUsage columnID="79C6A077-3FC0-4F8D-4D33-49155647B49A"/>
+<colUsage columnID="7DF89E36-0756-1810-BA15-246AA454EF88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEA77F91-F666-DA83-474D-DA9240A3B856" name="Seccion_Catedratico_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>5A0F7DAF-1B2F-16C0-518A-724446A2F3E2</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FD13593-8C45-49F7-2E3E-2AFC9FA417E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4613A5C9-3866-6E24-C080-AD2D82C19931" name="Seccion_Curso_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>836ECA7B-D4E3-3049-5581-AAA45AE2AD5E</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DF89E36-0756-1810-BA15-246AA454EF88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

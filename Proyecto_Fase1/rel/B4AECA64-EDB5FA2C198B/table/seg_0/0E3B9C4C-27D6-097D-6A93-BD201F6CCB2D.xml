@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E3B9C4C-27D6-097D-6A93-BD201F6CCB2D" name="Pensum">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>5F157A15-707E-CB02-FAF5-CA13A7AF1FA4</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Obligatoriedad" id="78225ED9-83D8-4C8F-8D63-551F5829151F">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>7E9D5200-216D-EDB7-E972-771916AE7413</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumCreditos" id="0338A8DE-FF8C-965C-EE50-922B3B2A8693">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>A4C14275-FFBC-F767-C0B1-4955C4BE3937</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NotaAprobacion" id="F6602B23-84F9-BD07-4E8F-01DCBC96B78C">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>6D60EA80-31E4-1C0E-EC6F-694CF3869084</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZonaMinima" id="713DD4C5-6A28-BA9C-E863-E0299F978500">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>21BFB2D8-885C-4B02-15D6-9B18C0D60CEC</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CredPrerreq" id="0BF54049-4B18-E81B-D645-C1455AC83CFE">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>25DDA3CB-C88D-596D-0384-8A2D1C452B95</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodCurso" id="D954BBD5-1A6B-2485-40F5-9A97C974C17F">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>FCB5216A-C6C1-0CC1-A2BA-0A76C1D20B57</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F188D236-E843-EB8F-0416-69AD69B332B1" referredColumn="E9E99A57-F6AA-35F7-0406-1C83BC6037AE"/>
+</associations>
+</Column>
+<Column name="Plan" id="29DFC538-27F5-EAF5-C87B-61B883544011">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:58:02 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD5D80B-5D19-4127-B957-C4B2ADC97B9E" referredColumn="4CFDF937-2DA2-4563-502F-13E95F46B9E8"/>
+</associations>
+</Column>
+<Column name="Carrera" id="F8C75B6A-A89E-B66A-67D3-ADB162B6B4BC">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:58:02 UTC</createdTime>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD5D80B-5D19-4127-B957-C4B2ADC97B9E" referredColumn="61AA918B-D8DF-F477-D0B9-7810F73F0B52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FE24FA6-D78D-947F-8D4E-C760A0761D42" name="Pensum_PK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>37117695-949E-A1B8-391B-3E6DFDDD63FD</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D954BBD5-1A6B-2485-40F5-9A97C974C17F"/>
+<colUsage columnID="29DFC538-27F5-EAF5-C87B-61B883544011"/>
+<colUsage columnID="F8C75B6A-A89E-B66A-67D3-ADB162B6B4BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EB79EBF-6EEC-297C-6384-6C568EED81B4" name="Pensum_Curso_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:42:55 UTC</createdTime>
+<generatorID>508390F5-BA21-F7F9-0562-B8723A19743F</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D954BBD5-1A6B-2485-40F5-9A97C974C17F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2B0B0A0-7D4C-9100-32EE-50FAB6A41A32" name="Pensum_Plan_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:58:02 UTC</createdTime>
+<generatorID>BE729FF6-ACC5-0749-199C-1E807B39ADD5</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29DFC538-27F5-EAF5-C87B-61B883544011"/>
+<colUsage columnID="F8C75B6A-A89E-B66A-67D3-ADB162B6B4BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

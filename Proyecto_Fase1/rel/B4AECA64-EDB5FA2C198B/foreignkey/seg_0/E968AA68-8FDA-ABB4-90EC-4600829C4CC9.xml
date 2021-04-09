@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E968AA68-8FDA-ABB4-90EC-4600829C4CC9" containerWithKeyObject="F78CC72C-2619-C927-46AB-60E74AD629F5" localFKIndex="20B008CD-D093-A10F-DD58-12DA5D7D91A8" name="Horario_Periodo_FK">
+<createdBy>totto</createdBy>
+<createdTime>2021-03-29 21:54:52 UTC</createdTime>
+<generatorID>4184E7CC-9B57-B52B-E2E9-CB3FA093105A</generatorID>
+<ownerDesignName>Proyecto_Fase1</ownerDesignName>
+<referredTableLongName>Periodo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>280A4491-F447-FDF6-4372-4B3CFA4D6C63</referredTableID>
+<keyObject>C943408D-5F45-6A3D-8EC1-8FA6D8EB64C0</keyObject>
+<referredKeyID>C943408D-5F45-6A3D-8EC1-8FA6D8EB64C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Periodo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
