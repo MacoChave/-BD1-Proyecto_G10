@@ -1,0 +1,15 @@
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_1', 'Cardguard', 2008, 2011, 1997, 2000, 121, 2);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_2', 'Quo Lux', 2009, 2011, 2001, 2001, 131, 5);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_3', 'Alpha', 2001, 1979, 1989, 2008, 177, 4);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_4', 'Rank', 1985, 2005, 1992, 1997, 153, 2);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_5', 'Zaam-Dox', 1992, 2001, 2011, 1997, 163, 6);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_6', 'Zoolab', 1997, 2007, 1994, 2010, 156, 10);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_7', 'Job', 1993, 2001, 1996, 2004, 153, 2);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_8', 'Matsoft', 2012, 2003, 1989, 1993, 150, 7);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_9', 'Veribet', 2002, 2006, 1994, 1989, 178, 7);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_10', 'Andalax', 1994, 1998, 2007, 2004, 181, 7);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_11', 'Sonsing', 1995, 2012, 1997, 2005, 168, 8);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_12', 'Greenlam', 1994, 1991, 2006, 2004, 195, 3);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_13', 'Bytecard', 2007, 1996, 2011, 2006, 100, 2);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_14', 'Greenlam', 2000, 1992, 2000, 2003, 122, 1);
+insert into Plan (plan, nombre, yearinicial, cicloinicial, yearfinal, ciclofinal, numcreditoscierre, carrera) values ('Plan_15', 'Tin', 2008, 2011, 2001, 2012, 122, 1);

@@ -8,3 +8,5 @@ insert into Carrera (Carrera, Nombre) values(07, 'Ingenieria Mecanica Insdustria
 insert into Carrera (Carrera, Nombre) values(09, 'Ingenieria en Ciencia y Sistemas');
 insert into Carrera (Carrera, Nombre) values(13, 'Ingenieria Electronica');
 insert into Carrera (Carrera, Nombre) values(35, 'Ingenieria Ambiental');
+
+select * from carrera;

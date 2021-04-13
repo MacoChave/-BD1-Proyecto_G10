@@ -1,0 +1,15 @@
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (1, 9, 2, 109, 91, 74, 90);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (2, 7, 1, 189, 79, 69, 75);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (3, 5, 6, 107, 86, 66, 77);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (4, 2, 1, 168, 80, 61, 86);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (5, 4, 8, 186, 77, 75, 90);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (6, 9, 10, 198, 89, 73, 72);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (7, 4, 2, 169, 85, 63, 92);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (8, 4, 1, 199, 90, 58, 66);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (9, 11, 3, 144, 83, 59, 75);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (10, 6, 10, 113, 83, 64, 100);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (11, 9, 7, 177, 83, 57, 59);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (12, 2, 5, 179, 76, 70, 75);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (13, 5, 7, 112, 76, 62, 59);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (14, 14, 8, 195, 81, 51, 86);
+insert into Pensum (Codigo, Plan, Carrera, NumCreditos, NotaAprobacion, ZonaMinima, CredPrerreq) values (15, 15, 1, 149, 80, 75, 78);
